@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1"/>
+        <title>BMI CALCULATOR</title>
+        {% load static %}
+        <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.css' %}" />
+    </head>
+<body>
+    <div class="container mt-5">
+        <h2 class="text-center alert alert-info">BMI Calculator</h2>
+    <br>
+    
+        {% block body %}
+        {% endblock %}
+    </div>
+</body>
+</html>
